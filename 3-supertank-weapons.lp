@@ -1,10 +1,10 @@
-% Run with `clingo --opt-all 2-supertank.lp`.
+% Run with `clingo --opt-all 3-supertank-weapons.lp`.
 % This problem is more of a numeric constraint problem, so clasp is relatively
 % slow--it finds the optimal solution in about 90 seconds if you can only carry
 % up to 10 weapons of a single type, and way longer (I gave up after 15
 % minutes) if you permit up to 20.
-% See 2-supertank-constraints.lp for a version using the clingcon extensions
-% to clasp, which can handle it in under half a second.
+% See 3-supertank-weapons-constraints.lp for a version using the clingcon
+% extensions to clasp, which can handle it in under half a second.
 
 % General problem encoding.
 

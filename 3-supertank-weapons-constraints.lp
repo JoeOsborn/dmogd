@@ -1,4 +1,4 @@
-% Run with `clingcon --opt-all 2-supertank.lp`.
+% Run with `clingcon --opt-all 3-supertank-weapons-constraints.lp`.
 % Constraint logic programming version of supertank.
 % This replaces a lot of symbolic reasoning with mathematical constraints,
 % which can be solved very quickly.
